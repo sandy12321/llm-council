@@ -1,0 +1,16 @@
+{
+  "members": [
+    {
+      "name": "openai",
+      "endpoint": "https://api.openai.com/v1",
+      "model": "gpt-4.1-mini",
+      "key_env": "OPENAI_API_KEY"
+    },
+    {
+      "name": "openrouter",
+      "endpoint": "https://openrouter.ai/api/v1",
+      "model": "openrouter/auto",
+      "key_env": "OPENROUTER_API_KEY"
+    }
+  ]
+}
